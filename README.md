@@ -1,10 +1,10 @@
 # print_limits
 
-## Description:
+## About
 
 `print_limits` is a C program designed to display the maximum and minimum values of various data types. It provides a user-friendly interface for selecting data types and viewing their corresponding limits.
 
-## Features:
+## Features
 
 - **Interactive Mode:** Allows users to choose data types from a list.
 - **Command-Line Arguments:** Supports directly specifying data type names for quick access.
@@ -12,14 +12,14 @@
 - **Help Message:** Provides guidance on usage and available options.
 - **Error Handling:** Gracefully handles invalid inputs.
 
-## Installation:
+## Installation
 
-### Clone the Repository:
+### Clone the Repository
 ```bash
-git clone https://github.com/haddoumounir/Printlimits.git
+git clone https://github.com/haddoumounir/Print_limits.git
 ```
 
-### Compile:
+### Compile
 ```bash
 cd print_limits
 gcc -o print_limits print_limits.c libraries/libraries.h
