@@ -1,0 +1,47 @@
+
++---------------------------------------------------------------------------------------+
+|                             Print Limits - User Manual                                |
++---------------------------------------------------------------------------------------+
+| Overview                                                                              |
+|                                                                                       |
+| The Print Limits program displays system limits for various data types and            |
+| provides help on available options.                                                   |
++---------------------------------------------------------------------------------------+
+| Usage                                                                                 |
+|                                                                                       |
+| Command-Line Options                                                                  |
+|                                                                                       |
+| To use the program with specific arguments, run it with one of the following options: |
+|                                                                                       |
+| CHAR_BIT, SCHAR_MIN, SCHAR_MAX, UCHAR_MAX, CHAR_MIN, CHAR_MAX, MB_LEN_MAX, SHRT_MIN,  |
+| SHRT_MAX, USHRT_MAX, INT_MIN, INT_MAX, UINT_MAX, LONG_MIN, LONG_MAX,ULONG_MAX,        |
+| LLONG_MIN, LLONG_MAX, ULLONG_MAX.                                                     |
+| Example: ./print_limits CHAR_BIT                                                      |
++---------------------------------------------------------------------------------------+
+| Help Option                                                                           |
+|                                                                                       |
+| To get help about the available options, run the program with the -help flag:         |
+|                                                                                       |
+| Example: ./print_limits -help                                                         |
+|                                                                                       |
+| Output: Unknown flag. Use one of the following:                                       |
+| CHAR_BIT, SCHAR_MIN, SCHAR_MAX, UCHAR_MAX, CHAR_MIN, CHAR_MAX, MB_LEN_MAX,            |
+| SHRT_MIN, SHRT_MAX, USHRT_MAX, INT_MIN, INT_MAX, UINT_MAX, LONG_MIN, LONG_MAX,        |
+| ULONG_MAX, LLONG_MIN, LLONG_MAX, ULLONG_MAX.                                          |
++---------------------------------------------------------------------------------------+
+| Interactive Mode                                                                      |
+|                                                                                       |
+| If no command-line arguments are provided, the program will enter interactive mode:   |
+|                                                                                       |
+| Prompt: Choose a number :                                                             |
+| Enter a number corresponding to the desired data type limit.                          |
+|                                                                                       |
+| Example:                                                                              |
+| Choose a number : 10                                                                  |
+| Output: Minimum value for a variable of type int is                                   |
+| -2147483648                                                                           |
++---------------------------------------------------------------------------------------+
+| Notes                                                                                 |
+|                                                                                       |
+| Ensure to provide valid arguments or numbers for the program to function correctly.   |
++---------------------------------------------------------------------------------------+
