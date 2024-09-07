@@ -18,14 +18,12 @@
 ```bash
 git clone https://github.com/haddoumounir/Printlimits.git
 ```
-Use code with caution.
 
 ### Compile:
 ```bash
 cd print_limits
 gcc -o print_limits print_limits.c libraries/libraries.h
 ```
-Use code with caution.
 
 ## Usage:
 
@@ -34,7 +32,6 @@ Run the executable:
 ```bash
 ./print_limits
 ```
-Use code with caution.  
 Follow the on-screen prompts to select a data type.
 
 ### Command-Line Arguments:
@@ -42,7 +39,6 @@ Run the executable with the desired data type name as an argument:
 ```bash
 ./print_limits <data_type>
 ```
-Use code with caution.  
 Available data types: `CHAR_BIT`, `SCHAR_MIN`, `SCHAR_MAX`, `UCHAR_MAX`, `SHRT_MIN`, `SHRT_MAX`, `MB_LEN_MAX`, `USHRT_MAX`, `INT_MAX`, `INT_MIN`, `UINT_MAX`, `LONG_MIN`, `LONG_MAX`, `ULONG_MAX`, `LLONG_MIN`, `LLONG_MAX`, `ULLONG_MAX`
 
 ### Example:
@@ -50,7 +46,6 @@ To view the maximum value of `INT_MAX`, run:
 ```bash
 ./print_limits INT_MAX
 ```
-Use code with caution.
 
 ## Project Structure:
 
@@ -71,12 +66,3 @@ Use code with caution.
 - **print_limits.c:** The main program file.
 - **prli_files:** Stores text files for displaying information.
 - **src:** Contains source code for specific functions or modules.
-
-## Contributing:
-
-Contributions are welcome! Please follow the guidelines in the CONTRIBUTING.md file.
-
-## License:
-
-This project is licensed under the MIT License.
-```
