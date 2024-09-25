@@ -8,7 +8,7 @@ SRC_FILES = $(SRC_DIR)/ft_strcmp.c print_limits.c
 OBJ_FILES = $(SRC_DIR)/ft_strcmp.o print_limits.o
 HEADER_FILES = $(LIB_DIR)/libraries.h
 
-TARGET = print_limits
+TARGET = plimits
 
 all: $(TARGET)
 
