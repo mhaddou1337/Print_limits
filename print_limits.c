@@ -2,6 +2,14 @@
 
 void work_with_flags(char *flag);
 
+void ft_clrscr(void)
+{
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
 void import_file(char *file_name, char *color)
 {
     FILE *file;
@@ -47,6 +55,7 @@ int max_and_min_number_print(int select)
 
 int main(int argc, char **argv)
 {
+    ft_clrscr();
     int index = 0; // matnsax to set index to 0 every time u use it!
     
     int val = 0;
