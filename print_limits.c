@@ -126,8 +126,10 @@ else if (ft_strcmp(flag, "LLONG_MIN") == 0)
     printf("LLONG_MIN = %lld\n", LLONG_MIN);
 else if (ft_strcmp(flag, "LLONG_MAX") == 0)
     printf("LLONG_MAX = %lld\n", LLONG_MAX);
-else if (ft_strcmp(flag, "ULLONG_MAX") == 0)
-    printf("ULLONG_MAX = %llu\n", ULLONG_MAX);
+else if (ft_strcmp(flag, "CHAR_MAX") == 0)
+    printf("CHAR_MAX = %llu\n", CHAR_MAX);
+else if (ft_strcmp(flag, "CHAR_MIN") == 0)
+    printf("CHAR_MIN = %llu\n", CHAR_MIN);
 else if (ft_strcmp(flag, "-help") == 0)
     import_file("prli_files/help.prli","\e[0;37m");
     
